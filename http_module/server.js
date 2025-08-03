@@ -2,7 +2,7 @@ const http= require('http');
 //create server
 const server=http.createServer((req,res)=>{
     if(req.url === "/"){
-        res.write("welcome");
+        res.write("welcome nishtha");
         res.end();
     }
 
