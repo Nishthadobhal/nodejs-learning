@@ -15,6 +15,9 @@ console.log(req.body);
 res.send("ok");
 })
 
+app.use((res,req)=>{
+    return res.Status(404).send("page not found");
+})
 app.listen(port,()=>{
     console.log(`servve running at port  ${port}`);
     
