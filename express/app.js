@@ -2,7 +2,7 @@ import  express from 'express';
 import {port} from "./env.js";
 import path from "path";
 
-const app=express();
+const app=express();  
 
 
 app.use(express.static("public"));
